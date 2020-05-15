@@ -136,3 +136,11 @@ hr.solid {
 .hovereffect a.info:hover {
   box-shadow: 0 0 5px #fff;
 }
+
+.lightbox .lb-image {
+    display: block;
+    height: auto;
+    max-width: 90vw;
+    max-height: 90vh;
+    border-radius: 3px;
+}
