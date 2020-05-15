@@ -5,13 +5,13 @@
 /* volgende class regelt de marges en padding van de navigatie */
 .navbar{
   z-index: 1000;
-  background-color:#8690A8;
-  padding: 0px;
+  background-color:#97ae94;
+  padding: 10px;
 }
 
 .nav,
 .justify-content-center,
-ul{background-color:#8690A8;}
+ul{background-color:#97ae94;}
 
 a.nav-link{
   color: white !important;
@@ -33,4 +33,8 @@ a.nav-link hover{
 
 .navbar-nav > li.active > a:hover{
       color:#000 !important;
+}
+
+.navbar-collapse .nav-item:last-of-type{
+    border-right:1px solid #FFF !important;
 }

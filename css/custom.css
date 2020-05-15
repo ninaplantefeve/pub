@@ -2,7 +2,7 @@
 /* CSS Document */
 .nav-item{padding-left:40px;padding-right:40px;border-left:1px solid #FFF}
 body{
-  margin-bottom: 4em;
+  overflow-x:hidden;
 }
 
 img{
@@ -76,7 +76,7 @@ hr.solid {
 }
 
 .hovereffect:hover .overlay {
-  background-color: rgba(134, 144, 168, 0.7);
+  background-color: rgba(151, 174, 148, 0.7);
 }
 
 .hovereffect img {
